@@ -1,0 +1,14 @@
+[package]
+name = "clicrate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+reqwest = { version = "0.12.7", features = ["json"] }
+serde = { version = "1.0.209", features = ["derive"] }
+serde_json = "1.0.127"
+tokio = { version = "1.40.0", features = ["full"] }
+openssl = { version = "0.10", features = ["vendored"] }
+cling = "0.1.2"
+cli-table = "0.4.9"
